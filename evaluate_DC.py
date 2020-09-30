@@ -42,7 +42,7 @@ if __name__ == '__main__':
     # ---- Base class statistics
     base_means = []
     base_cov = []
-    base_features_path = "./checkpoints/%s/WideResNet28_10_S2M2_R/last/novel_features.plk"%dataset
+    base_features_path = "./checkpoints/%s/WideResNet28_10_S2M2_R/last/base_features.plk"%dataset
     with open(base_features_path, 'rb') as f:
         data = pickle.load(f)
         for key in data.keys():
