@@ -23,8 +23,7 @@ CUB
 
 
 ## Training
-We follow the the same training of feature extractor as :[Charting the Right Manifold: Manifold Mixup for Few-shot Learning](https://arxiv.org/pdf/1907.12087v3.pdf)
-You can find their code in https://github.com/nupurkmr9/S2M2_fewshot
+
 
 To train the feature extractor in the paper, run this command:
 
