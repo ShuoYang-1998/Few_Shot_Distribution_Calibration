@@ -9,7 +9,7 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
-***Donwloading the dataset and create base/val/novel splits***:
+***Donwload the dataset and create base/val/novel splits***:
 
 miniImageNet
 * Change directory to filelists/miniImagenet/
@@ -22,7 +22,7 @@ CUB
 
 
 
-## Training
+## Train feature extractor
 
 
 To train the feature extractor in the paper, run this command:
@@ -31,7 +31,7 @@ To train the feature extractor in the paper, run this command:
 python train.py --dataset [miniImagenet/CUB] 
 ```
 
-## Extract base/novel class features for  [miniImagenet/CUB] using pretrained extractor
+## Extract and save features
 
 - Create an empty 'checkpoints' directory.
 
@@ -41,9 +41,9 @@ python save_plk.py --dataset [miniImagenet/CUB]
 ```
 
 
-## Evaluate distribution calibration
+## Evaluate our distribution calibration
 
-To evaluate our distribution calibration method on miniImageNet/CUB, run:
+To evaluate our distribution calibration method, run:
 
 ```eval
 python evaluate_DC.py
