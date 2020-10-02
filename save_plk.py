@@ -73,6 +73,8 @@ def extract_feature(val_loader, model, checkpoint_dir, tag='last',set='base'):
 
 if __name__ == '__main__':
     params = parse_args('test')
+    params.model = 'WideResNet28_10'
+    params.method = 'S2M2_R'
 
     loadfile_base = configs.data_dir[params.dataset] + 'base.json'
     loadfile_novel = configs.data_dir[params.dataset] + 'novel.json'
