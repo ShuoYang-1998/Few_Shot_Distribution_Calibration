@@ -25,7 +25,7 @@ if __name__ == '__main__':
     n_shot = 1
     n_ways = 5
     n_queries = 15
-    n_runs = 100
+    n_runs = 10000
     n_lsamples = n_ways * n_shot
     n_usamples = n_ways * n_queries
     n_samples = n_lsamples + n_usamples
