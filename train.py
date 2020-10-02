@@ -277,7 +277,8 @@ def train_rotation(base_loader, base_loader_test, model, start_epoch, stop_epoch
 
 if __name__ == '__main__':
     params = parse_args('train')
-
+    params.model = 'WideResNet28_10'
+    params.method = 'S2M2_R'
     base_file = configs.data_dir[params.dataset] + 'base.json'
     params.checkpoint_dir = '%s/checkpoints/%s/%s_%s' %(configs.save_dir, params.dataset, params.model, params.method)
     start_epoch = params.start_epoch
