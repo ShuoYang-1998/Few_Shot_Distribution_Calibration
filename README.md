@@ -41,7 +41,7 @@ python save_plk.py --dataset [miniImagenet/CUB]
 ```
 
 
-## Evaluation Distribution Calibration
+## Evaluate distribution calibration
 
 To evaluate our distribution calibration method on miniImageNet/CUB, run:
 
