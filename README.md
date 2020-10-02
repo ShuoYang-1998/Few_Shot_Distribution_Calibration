@@ -28,7 +28,7 @@ CUB
 To train the feature extractor in the paper, run this command:
 
 ```train
-python train.py --dataset [miniImagenet/CUB] --method S2M2_R --model WideResNet28_10 --train_aug
+python train.py --dataset [miniImagenet/CUB] 
 ```
 
 ## Extract base/novel class features for  [miniImagenet/CUB] using pretrained extractor
@@ -37,11 +37,11 @@ python train.py --dataset [miniImagenet/CUB] --method S2M2_R --model WideResNet2
 
 - Run:
 ```save_features
-python save_plk.py --dataset [miniImagenet/CUB] --method S2M2_R --model WideResNet28_10
+python save_plk.py --dataset [miniImagenet/CUB] 
 ```
 
 
-## Evaluation
+## Evaluation Distribution Calibration
 
 To evaluate our distribution calibration method on miniImageNet/CUB, run:
 
