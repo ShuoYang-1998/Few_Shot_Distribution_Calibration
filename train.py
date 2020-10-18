@@ -21,7 +21,7 @@ import torchvision.datasets as datasets
 from data.datamgr import SimpleDataManager , SetDataManager
 import configs
 
-import wrn_mixup_model
+import wrn_model
 from io_utils import parse_args, get_resume_file ,get_assigned_file
 from os import path
 
@@ -292,7 +292,7 @@ if __name__ == '__main__':
 
 
     if params.model == 'WideResNet28_10':
-        model = wrn_mixup_model.wrn28_10(num_classes=params.num_classes)
+        model = wrn_model.wrn28_10(num_classes=params.num_classes)
 
     
     if params.method =='S2M2_R':
