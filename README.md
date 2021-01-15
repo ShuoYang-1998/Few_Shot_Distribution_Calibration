@@ -1,5 +1,7 @@
 # [ICLR2021 Oral]Free Lunch for Few Shot Learning: Distribution Calibration
 
+paper link: https://openreview.net/forum?id=JWOiYxMG92s
+
 
 ## Requirements
 
@@ -39,9 +41,10 @@ python train.py --dataset [miniImagenet/CUB]
 ```save_features
 python save_plk.py --dataset [miniImagenet/CUB] 
 ```
-## Or you can directly download the extracted features from the link:
+## Or you can directly download the extracted features/pretrained models from the link:
 https://drive.google.com/drive/folders/1IjqOYLRH0OwkMZo8Tp4EG02ltDppi61n?usp=sharing
-If you chose to download the extracted feature, you are not required to download the dataset and train the network.
+
+If you chose to download the extracted features, you are not required to download the dataset and train the network.
 After downloading the extracted features, please adjust your file path according to the code.
 
 
