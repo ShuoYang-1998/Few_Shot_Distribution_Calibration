@@ -39,7 +39,9 @@ python train.py --dataset [miniImagenet/CUB]
 ```save_features
 python save_plk.py --dataset [miniImagenet/CUB] 
 ```
-# Or you can directly download the extracted features from the link:https://drive.google.com/drive/folders/1IjqOYLRH0OwkMZo8Tp4EG02ltDppi61n?usp=sharing
+## Or you can directly download the extracted features from the link:
+https://drive.google.com/drive/folders/1IjqOYLRH0OwkMZo8Tp4EG02ltDppi61n?usp=sharing
+If you chose to download the extracted feature, you are not required to download the dataset and train the network.
 After downloading the extracted features, please adjust your file path according to the code.
 
 
@@ -54,11 +56,11 @@ python evaluate_DC.py
 If our paper is useful for your research, please cite our paper:
 
 @inproceedings{
-yang2021free,
-title={Free Lunch for Few-shot Learning:  Distribution Calibration},
-author={Shuo Yang and Lu Liu and Min Xu},
-booktitle={International Conference on Learning Representations},
-year={2021},
-url={https://openreview.net/forum?id=JWOiYxMG92s}
+  yang2021free,
+  title={Free Lunch for Few-shot Learning:  Distribution Calibration},
+  author={Shuo Yang and Lu Liu and Min Xu},
+  booktitle={International Conference on Learning Representations},
+  year={2021},
+  url={https://openreview.net/forum?id=JWOiYxMG92s}
 }
 
