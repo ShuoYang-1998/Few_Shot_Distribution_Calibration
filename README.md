@@ -47,7 +47,7 @@ python save_plk.py --dataset [miniImagenet/CUB]
 ## Or you can directly download the extracted features/pretrained models from the link:
 https://drive.google.com/drive/folders/1IjqOYLRH0OwkMZo8Tp4EG02ltDppi61n?usp=sharing
 
-***If you chose to download the extracted features, you are not required to download the dataset and train the network. If then, all you have to do to reproduce the results is to download the features and run evaluate_DC.py. (So easy, right? ^ - ^)***
+***Actually, all our algorithm is built upon the extracted features. The training procedure and the extracted features are all the same as the reference work 'S2M2' (Their project page [https://github.com/nupurkmr9/S2M2_fewshot](url)). You can reproduce our work by just simply applying evaluate_DC.py on the extracted features.***
 
 After downloading the extracted features, please adjust your file path according to the code.
 
@@ -74,4 +74,10 @@ If our paper is useful for your research, please cite our paper:
   url={https://openreview.net/forum?id=JWOiYxMG92s}
 }
 ```
+
+## Reference
+
+[Charting the Right Manifold: Manifold Mixup for Few-shot Learning](https://arxiv.org/pdf/1907.12087v3.pdf)
+
+[https://github.com/nupurkmr9/S2M2_fewshot](url)
 
