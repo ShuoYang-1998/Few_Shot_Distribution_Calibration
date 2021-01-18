@@ -66,11 +66,11 @@ If our paper is useful for your research, please cite our paper:
 
 ```
 @inproceedings{
-  yang2021free,
-  title={Free Lunch for Few-shot Learning:  Distribution Calibration},
-  author={Shuo Yang and Lu Liu and Min Xu},
-  booktitle={ICLR},
-  year={2021},
+yang2021free,
+title={Free Lunch for Few-shot Learning:  Distribution Calibration},
+author={Yang, Shuo and Liu, Lu and Xu, Min},
+booktitle={International Conference on Learning Representations (ICLR)},
+year={2021},
 }
 ```
 
