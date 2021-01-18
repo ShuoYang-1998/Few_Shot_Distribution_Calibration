@@ -33,7 +33,7 @@ CUB
 To train the feature extractor in the paper, run this command:
 
 ```train
-python train.py --dataset [miniImagenet/CUB] 
+python train.py --dataset [miniImagenet/CUB] --train_aug
 ```
 
 ## Extract and save features
