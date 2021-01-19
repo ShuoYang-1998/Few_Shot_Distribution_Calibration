@@ -6,37 +6,14 @@ zhihu link: https://zhuanlan.zhihu.com/p/344531704
 
 ![](illustration.png)
 
-## Requirements
+## Backbone Training
 
-To install requirements:
+We use the same backbone network and training stratege as 'S2M2_R', please refer to [https://github.com/nupurkmr9/S2M2_fewshot](url) for the backbone training codes.
 
-```setup
-pip install -r requirements.txt
-```
-
-***Donwload the dataset and create base/val/novel splits***:
-
-miniImageNet
-* Change directory to filelists/miniImagenet/
-* Run 'source ./download_miniImagenet.sh'
-
-CUB
-
-* Change directory to filelists/CUB/
-* Run 'source ./download_CUB.sh' 
-
-
-
-## Train feature extractor
-
-
-To train the feature extractor in the paper, run this command:
-
-```train
-python train.py --dataset [miniImagenet/CUB] --train_aug
-```
 
 ## Extract and save features
+
+After training the backbone as 'S2M2_R', extract features as below:
 
 - Create an empty 'checkpoints' directory.
 
@@ -44,10 +21,9 @@ python train.py --dataset [miniImagenet/CUB] --train_aug
 ```save_features
 python save_plk.py --dataset [miniImagenet/CUB] 
 ```
-## Or you can directly download the extracted features/pretrained models from the link:
+### Or you can directly download the extracted features/pretrained models from the link:
 https://drive.google.com/drive/folders/1IjqOYLRH0OwkMZo8Tp4EG02ltDppi61n?usp=sharing
 
-***Actually, all our algorithm is built upon the extracted features (We perform data augmentation in the feature space). The training procedure and the pretrained backbone are both irrelevant to our method. The pretrained model and the extracted features we used are the same as the reference work 'S2M2' (Their project page [https://github.com/nupurkmr9/S2M2_fewshot](url)). You can reproduce our work by just simply applying evaluate_DC.py on the provided features. Or you can apply our method on your own model.***
 
 After downloading the extracted features, please adjust your file path according to the code.
 
