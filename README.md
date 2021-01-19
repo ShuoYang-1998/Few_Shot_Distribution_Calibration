@@ -8,7 +8,7 @@ zhihu link: https://zhuanlan.zhihu.com/p/344531704
 
 ## Backbone Training
 
-We use the same backbone network and training stratege as 'S2M2_R', please refer to [https://github.com/nupurkmr9/S2M2_fewshot](url) for the backbone training codes.
+We use the same backbone network and training strategies as 'S2M2_R'. Please refer to https://github.com/nupurkmr9/S2M2_fewshot for the backbone training.
 
 
 ## Extract and save features
