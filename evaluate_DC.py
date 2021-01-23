@@ -54,6 +54,7 @@ if __name__ == '__main__':
 
     # ---- classification for each task
     acc_list = []
+    print('Start classification for %d tasks...'%(n_runs))
     for i in tqdm(range(n_runs)):
 
         support_data = ndatas[i][:n_lsamples].numpy()
